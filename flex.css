@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Main container */
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 20px auto;
+    background-color: pink;
+}
+
+/* Header and Footer */
+header, footer {
+    background-color: lightseagreen;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+/* Content section */
+.content {
+    display: flex;
+    flex: 1;
+    
+}
+
+/* Sidebar */
+aside {
+    width: 25%;
+    background-color: teal;
+    margin: 20px 0 20px 20px;
+    font-size: 20px;
+    color: white;
+    padding-top: 60px;
+}
+
+/* Main section */
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Article */
+.article {
+    background-color: salmon;
+    padding: 20px;
+    font-size: 20px;
+}
+
+/* Image container */
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Image boxes */
+.image {
+    width: 80px;
+    height: 80px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* navbar */
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    height: 90px;
+    width: 90%;
+    margin: 50px auto;
+    align-items: center;
+}
+div.leftMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  div.leftMenu ul.navList {
+    list-style-type: none;
+    margin-left: 30px;
+    /* margin-top: 27px; */
+  }
+  
+  ul.navList li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  li.navItem a.navLink:link { 
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  li.navItem a.navLink:visited {
+    color: white;
+  }
+ div.rightMenu {
+    display: inline-block;
+    margin-left: 30%;
+  }
+  
+  div.rightMenu span,
+  i,
+  button {
+    margin: 0 5px;
+  }
+  
+  .btnGo {
+    border-color: rgb(243, 189, 27);
+    background-color: white;
+    color: red;
+    padding: 5px 10px;
+    border-style: solid;
+    border-radius: 3px;
+    border-radius: 10px;
+  }
+.rightMenu{
+    margin-right: 20px;
+}
