@@ -129,3 +129,62 @@ div.leftMenu {
 .rightMenu{
     margin-right: 20px;
 }
+.heading{
+  padding: 15px;
+  background-color: rgb(127, 11, 127);
+  width: 90%;
+  margin: 0 auto;
+  color: white;
+}
+.navBar2{
+  display: flex;
+  margin: 0 auto;
+  gap: 20px;
+  width: 90%;
+}
+div.col{
+  margin: 50px 0px 50px 0;
+  justify-content: center;
+  background-color: aqua;
+  padding: 20px;
+}
+div.col p{
+  margin: 20px 0;
+  text-align: justify;
+}
+
+
+  @media screen and (max-width: 650px) {
+  .navBar {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .leftMenu, .rightMenu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+
+  .rightMenu {
+    flex-direction: column;
+    align-items: center;
+  }
+  div.rightMenu{
+    margin-left: 0;
+  }
+  .rightMenu input {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  .navBar2{
+    flex-direction: column;
+  }
+  div.col{
+    margin: 20px;
+    margin-bottom: 0;
+  }
+}
