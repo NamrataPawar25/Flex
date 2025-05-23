@@ -143,7 +143,7 @@ div.leftMenu {
   width: 90%;
 }
 div.col{
-  margin: 50px 0px 50px 0;
+  margin: 10px 0px 50px 0;
   justify-content: center;
   background-color: aqua;
   padding: 20px;
@@ -184,7 +184,6 @@ div.col p{
     flex-direction: column;
   }
   div.col{
-    margin: 20px;
     margin-bottom: 0;
   }
 }
